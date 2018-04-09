@@ -1,0 +1,32 @@
+C:\Users\USER\Downloads\Compressed\ControlStock-master\ControlStock-master\ContolStock\bin\Release\ContolStock.exe.config
+C:\Users\USER\Downloads\Compressed\ControlStock-master\ControlStock-master\ContolStock\bin\Release\ContolStock.exe
+C:\Users\USER\Downloads\Compressed\ControlStock-master\ControlStock-master\ContolStock\bin\Release\ContolStock.pdb
+C:\Users\USER\Downloads\Compressed\ControlStock-master\ControlStock-master\ContolStock\bin\Release\ContolStock.xml
+C:\Users\USER\Downloads\Compressed\ControlStock-master\ControlStock-master\ContolStock\bin\Release\MySql.Data.dll
+C:\Users\USER\Downloads\Compressed\ControlStock-master\ControlStock-master\ContolStock\obj\Release\ControlStock.vbprojResolveAssemblyReference.cache
+C:\Users\USER\Downloads\Compressed\ControlStock-master\ControlStock-master\ContolStock\obj\Release\ContolStock.datastock.resources
+C:\Users\USER\Downloads\Compressed\ControlStock-master\ControlStock-master\ContolStock\obj\Release\ContolStock.kondisistock.resources
+C:\Users\USER\Downloads\Compressed\ControlStock-master\ControlStock-master\ContolStock\obj\Release\ContolStock.stockminmax.resources
+C:\Users\USER\Downloads\Compressed\ControlStock-master\ControlStock-master\ContolStock\obj\Release\ContolStock.stockkeluar.resources
+C:\Users\USER\Downloads\Compressed\ControlStock-master\ControlStock-master\ContolStock\obj\Release\ContolStock.Resources.resources
+C:\Users\USER\Downloads\Compressed\ControlStock-master\ControlStock-master\ContolStock\obj\Release\ControlStock.vbproj.GenerateResource.Cache
+C:\Users\USER\Downloads\Compressed\ControlStock-master\ControlStock-master\ContolStock\obj\Release\ContolStock.exe
+C:\Users\USER\Downloads\Compressed\ControlStock-master\ControlStock-master\ContolStock\obj\Release\ContolStock.xml
+C:\Users\USER\Downloads\Compressed\ControlStock-master\ControlStock-master\ContolStock\obj\Release\ContolStock.pdb
+C:\Users\USER\Documents\Visual Studio 2013\Projects\ControlStock\ContolStock\bin\Release\ContolStock.exe.config
+C:\Users\USER\Documents\Visual Studio 2013\Projects\ControlStock\ContolStock\obj\Release\ContolStock.exe
+C:\Users\USER\Documents\Visual Studio 2013\Projects\ControlStock\ContolStock\obj\Release\ContolStock.xml
+C:\Users\USER\Documents\Visual Studio 2013\Projects\ControlStock\ContolStock\obj\Release\ContolStock.pdb
+C:\Users\USER\Documents\Visual Studio 2013\Projects\ControlStock\ContolStock\bin\Release\ContolStock.exe
+C:\Users\USER\Documents\Visual Studio 2013\Projects\ControlStock\ContolStock\bin\Release\ContolStock.pdb
+C:\Users\USER\Documents\Visual Studio 2013\Projects\ControlStock\ContolStock\bin\Release\ContolStock.xml
+C:\Users\USER\Documents\Visual Studio 2013\Projects\ControlStock\ContolStock\bin\Release\MySql.Data.dll
+C:\Users\USER\Documents\Visual Studio 2013\Projects\ControlStock\ContolStock\obj\Release\ControlStock.vbprojResolveAssemblyReference.cache
+C:\Users\USER\Documents\Visual Studio 2013\Projects\ControlStock\ContolStock\obj\Release\ContolStock.datastock.resources
+C:\Users\USER\Documents\Visual Studio 2013\Projects\ControlStock\ContolStock\obj\Release\ContolStock.Form5.resources
+C:\Users\USER\Documents\Visual Studio 2013\Projects\ControlStock\ContolStock\obj\Release\ContolStock.kondisistock.resources
+C:\Users\USER\Documents\Visual Studio 2013\Projects\ControlStock\ContolStock\obj\Release\ContolStock.stockminmax.resources
+C:\Users\USER\Documents\Visual Studio 2013\Projects\ControlStock\ContolStock\obj\Release\ContolStock.stockkeluar.resources
+C:\Users\USER\Documents\Visual Studio 2013\Projects\ControlStock\ContolStock\obj\Release\ContolStock.Resources.resources
+C:\Users\USER\Documents\Visual Studio 2013\Projects\ControlStock\ContolStock\obj\Release\ControlStock.vbproj.GenerateResource.Cache
+C:\Users\USER\documents\visual studio 2013\Projects\ControlStock\ContolStock\obj\Release\ContolStock.Formpilih.resources
