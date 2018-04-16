@@ -29,15 +29,27 @@ Public Class Form5
         End If
     End Sub
 
-    Private Sub MenuStrip1_ItemClicked(sender As Object, e As ToolStripItemClickedEventArgs) Handles MenuStrip1.ItemClicked
-
-    End Sub
-
     Private Sub KondisiStockToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles KondisiStockToolStripMenuItem.Click
         kondisistock.Show()
     End Sub
 
-    Private Sub DataGridView1_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles DataGridView1.CellContentClick
+    Private Sub StockKeluarToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles StockKeluarToolStripMenuItem.Click
+        stockkeluar.Show()
+    End Sub
 
+    Private Sub KondisiStockToolStripMenuItem1_Click(sender As Object, e As EventArgs) Handles KondisiStockToolStripMenuItem1.Click
+        infokondisistock.Show()
+    End Sub
+
+    Private Sub StockMasukToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles StockMasukToolStripMenuItem.Click
+        infopenambahanstock.Show()
+    End Sub
+
+    Private Sub StockKeluarToolStripMenuItem1_Click(sender As Object, e As EventArgs) Handles StockKeluarToolStripMenuItem1.Click
+        infostockkeluar.Show()
+    End Sub
+
+    Private Sub StockMinMaxToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles StockMinMaxToolStripMenuItem.Click
+        stockminmax.Show()
     End Sub
 End Class

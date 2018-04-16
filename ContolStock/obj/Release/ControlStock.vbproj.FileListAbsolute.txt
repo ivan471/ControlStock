@@ -30,3 +30,6 @@ C:\Users\USER\Documents\Visual Studio 2013\Projects\ControlStock\ContolStock\obj
 C:\Users\USER\Documents\Visual Studio 2013\Projects\ControlStock\ContolStock\obj\Release\ContolStock.Resources.resources
 C:\Users\USER\Documents\Visual Studio 2013\Projects\ControlStock\ContolStock\obj\Release\ControlStock.vbproj.GenerateResource.Cache
 C:\Users\USER\documents\visual studio 2013\Projects\ControlStock\ContolStock\obj\Release\ContolStock.Formpilih.resources
+C:\Users\USER\documents\visual studio 2013\Projects\ControlStock\ContolStock\obj\Release\ContolStock.infokondisistock.resources
+C:\Users\USER\documents\visual studio 2013\Projects\ControlStock\ContolStock\obj\Release\ContolStock.infopenambahanstock.resources
+C:\Users\USER\documents\visual studio 2013\Projects\ControlStock\ContolStock\obj\Release\ContolStock.infostockkeluar.resources

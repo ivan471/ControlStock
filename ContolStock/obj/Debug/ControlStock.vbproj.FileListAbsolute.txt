@@ -14,7 +14,7 @@ C:\Users\lenovo\Documents\Visual Studio 2013\Projects\ControlStock\ContolStock\o
 C:\Users\lenovo\Documents\Visual Studio 2013\Projects\ControlStock\ContolStock\obj\Debug\ContolStock.xml
 C:\Users\lenovo\Documents\Visual Studio 2013\Projects\ControlStock\ContolStock\obj\Debug\ContolStock.pdb
 C:\Users\lenovo\Documents\Visual Studio 2013\Projects\ControlStock\ContolStock\obj\Debug\ContolStock.Form5.resources
-C:\Users\USER\Documents\Visual Studio 2013\Projects\ControlStock\ContolStock\bin\Debug\ContolStock.exe.config
-C:\Users\USER\Documents\Visual Studio 2013\Projects\ControlStock\ContolStock\obj\Debug\ContolStock.exe
-C:\Users\USER\Documents\Visual Studio 2013\Projects\ControlStock\ContolStock\obj\Debug\ContolStock.xml
-C:\Users\USER\Documents\Visual Studio 2013\Projects\ControlStock\ContolStock\obj\Debug\ContolStock.pdb
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\ControlStock\ContolStock\obj\Debug\ContolStock.Formpilih.resources
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\ControlStock\ContolStock\obj\Debug\ContolStock.infokondisistock.resources
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\ControlStock\ContolStock\obj\Debug\ContolStock.infopenambahanstock.resources
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\ControlStock\ContolStock\obj\Debug\ContolStock.infostockkeluar.resources

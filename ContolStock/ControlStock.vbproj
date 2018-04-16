@@ -52,7 +52,6 @@
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
-    <Reference Include="System.DirectoryServices" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
@@ -85,6 +84,24 @@
       <DependentUpon>Formpilih.vb</DependentUpon>
     </Compile>
     <Compile Include="Formpilih.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="infokondisistock.Designer.vb">
+      <DependentUpon>infokondisistock.vb</DependentUpon>
+    </Compile>
+    <Compile Include="infokondisistock.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="infopenambahanstock.Designer.vb">
+      <DependentUpon>infopenambahanstock.vb</DependentUpon>
+    </Compile>
+    <Compile Include="infopenambahanstock.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="infostockkeluar.Designer.vb">
+      <DependentUpon>infostockkeluar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="infostockkeluar.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="kondisistock.Designer.vb">
@@ -137,6 +154,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formpilih.resx">
       <DependentUpon>Formpilih.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="infokondisistock.resx">
+      <DependentUpon>infokondisistock.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="infopenambahanstock.resx">
+      <DependentUpon>infopenambahanstock.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="infostockkeluar.resx">
+      <DependentUpon>infostockkeluar.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="kondisistock.resx">
       <DependentUpon>kondisistock.vb</DependentUpon>
