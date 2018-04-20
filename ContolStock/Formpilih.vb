@@ -16,6 +16,10 @@ Public Class Formpilih
             Me.Close()
         ElseIf TextBox9.Text = "2" Then
             kondisistock.TextBox1.Text = TextBox2.Text
+            kondisistock.TextBox2.Text = TextBox3.Text
+            kondisistock.TextBox5.Text = TextBox6.Text
+            kondisistock.TextBox6.Text = TextBox6.Text
+            kondisistock.TextBox7.Text = TextBox6.Text
             Me.Close()
         End If
     End Sub
@@ -63,12 +67,12 @@ Public Class Formpilih
         Call seleksi()
     End Sub
     Sub seleksi()
-        Dim strtext As String = "SELECT * FROM stock where nama like '%" & TextBox1.Text & "&'"
+        Dim strtext As String = "SELECT * FROM stock WHERE Nama like '%" & TextBox1.Text & "%'"
         Using cmd As New MySqlCommand(strtext, konek)
             Using adapter As New MySqlDataAdapter(cmd)
                 Using DataSet As New DataSet()
                     adapter.Fill(DataSet)
-                    DataGridView1.DataSource = DataSet.Tables(1)
+                    DataGridView1.DataSource = DataSet.Tables(0)
                     DataGridView1.ReadOnly = True
                 End Using
             End Using

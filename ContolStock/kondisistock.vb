@@ -33,7 +33,7 @@
             MsgBox("Data Stock Berhasil Ditambah", MsgBoxStyle.Information, "Information")
             Form5.isigrid()
             Me.Close()
-        ElseIf njum < TextBox8.Text And njum > TextBox9.Text Then
+        Else
             TextBox9.Text = "Cukup"
             Dim tblupdate2 As String = "Update stock set Jumlah = " & njum & ", status = '" & TextBox9.Text & "' where kode = '" & TextBox1.Text & "'"
             Call simpandata(tblupdate2)
@@ -50,7 +50,7 @@
         'MsgBox("Data Stock Berhasil Ditambah", MsgBoxStyle.Information, "Information")
         'Form5.DataGridView1.Refresh()
         'Me.Close()
-        End If
+
     End Sub
 
     Private Sub TextBox1_TextChanged(sender As Object, e As EventArgs) Handles TextBox2.TextChanged

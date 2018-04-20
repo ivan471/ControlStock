@@ -11,7 +11,7 @@ Public Class infopenambahanstock
 
     End Sub
     Sub isigrid()
-        Dim query As String = "SELECT * from stock_masuk"
+        Dim query As String = "SELECT Kode_barang,nama,merek,jumlah_masuk,satuan,tanggal from stock_masuk inner join stock using (kode_barang)"
         Dim da As New MySqlDataAdapter(query, konek)
         Dim ds As New DataSet()
         If da.Fill(ds) Then

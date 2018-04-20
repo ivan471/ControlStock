@@ -197,7 +197,6 @@ Partial Class datastock
         Me.TextBox6.Size = New System.Drawing.Size(100, 22)
         Me.TextBox6.TabIndex = 16
         Me.TextBox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.TextBox6.Visible = False
         '
         'Label3
         '
@@ -225,7 +224,6 @@ Partial Class datastock
         Me.TextBox7.Name = "TextBox7"
         Me.TextBox7.Size = New System.Drawing.Size(100, 22)
         Me.TextBox7.TabIndex = 18
-        Me.TextBox7.Visible = False
         '
         'TextBox8
         '
@@ -233,7 +231,6 @@ Partial Class datastock
         Me.TextBox8.Name = "TextBox8"
         Me.TextBox8.Size = New System.Drawing.Size(100, 22)
         Me.TextBox8.TabIndex = 19
-        Me.TextBox8.Visible = False
         '
         'TextBox9
         '
@@ -241,7 +238,6 @@ Partial Class datastock
         Me.TextBox9.Name = "TextBox9"
         Me.TextBox9.Size = New System.Drawing.Size(100, 22)
         Me.TextBox9.TabIndex = 20
-        Me.TextBox9.Visible = False
         '
         'TextBox10
         '
@@ -249,14 +245,13 @@ Partial Class datastock
         Me.TextBox10.Name = "TextBox10"
         Me.TextBox10.Size = New System.Drawing.Size(100, 22)
         Me.TextBox10.TabIndex = 21
-        Me.TextBox10.Visible = False
         '
         'datastock
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
-        Me.ClientSize = New System.Drawing.Size(748, 447)
+        Me.ClientSize = New System.Drawing.Size(744, 447)
         Me.Controls.Add(Me.TextBox10)
         Me.Controls.Add(Me.TextBox9)
         Me.Controls.Add(Me.TextBox8)

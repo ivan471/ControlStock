@@ -15,7 +15,7 @@ Public Class datastock
             MsgBox("Data belum lengkap, Pastikan Semua form terisi")
         ElseIf njum <= TextBox8.Text Then
             TextBox10.Text = "Stock Minimum"
-            Dim tblupdate As String = "Update stock set Jumlah = " & njum & ",status = '" & TextBox10.Text & "' where kode = '" & TextBox1.Text & "'"
+            Dim tblupdate As String = "Update stock set Jumlah = " & njum & ",status = '" & TextBox10.Text & "' where Kode_barang = '" & TextBox1.Text & "'"
             Call simpandata(tblupdate)
             Dim tblsimpan As String = "INSERT INTO stock_masuk(Kode_barang,Jumlah_masuk,Tanggal)" _
                                   & "VALUES('" & TextBox1.Text & "','" & TextBox3.Text & "','" & TextBox7.Text & "')"
@@ -25,7 +25,7 @@ Public Class datastock
             Me.Close()
         ElseIf njum >= TextBox9.Text Then
             TextBox10.Text = "Stock Maksimum"
-            Dim tblupdate2 As String = "Update stock set Jumlah = " & njum & ", status = '" & TextBox10.Text & "' where kode = '" & TextBox1.Text & "'"
+            Dim tblupdate2 As String = "Update stock set Jumlah = " & njum & ", status = '" & TextBox10.Text & "' where Kode_barang = '" & TextBox1.Text & "'"
             Call simpandata(tblupdate2)
             Dim tblsimpan As String = "INSERT INTO stock_masuk(Kode_barang,Jumlah_masuk,Tanggal)" _
                                   & "VALUES('" & TextBox1.Text & "','" & TextBox3.Text & "','" & TextBox7.Text & "')"
@@ -33,12 +33,12 @@ Public Class datastock
             MsgBox("Data Stock Berhasil Ditambah", MsgBoxStyle.Information, "Information")
             Form5.isigrid()
             Me.Close()
-        ElseIf njum < TextBox8.Text And njum > TextBox9.Text Then
+        Else
             TextBox10.Text = "Cukup"
-            Dim tblupdate2 As String = "Update stock set Jumlah = " & njum & ", status = '" & TextBox10.Text & "' where kode = '" & TextBox1.Text & "'"
+            Dim tblupdate2 As String = "Update stock set Jumlah = " & njum & ", status = '" & TextBox10.Text & "' where Kode_barang = '" & TextBox1.Text & "'"
             Call simpandata(tblupdate2)
             Dim tblsimpan As String = "INSERT INTO stock_masuk(Kode_barang,Jumlah_masuk,Tanggal)" _
-                                  & "VALUES('" & TextBox1.Text & "','" & TextBox3.Text & "','" & TextBox7.Text & "')"
+                                 & "VALUES('" & TextBox1.Text & "','" & TextBox3.Text & "','" & TextBox7.Text & "')"
             Call simpandata(tblsimpan)
             MsgBox("Data Stock Berhasil Ditambah", MsgBoxStyle.Information, "Information")
             Form5.isigrid()

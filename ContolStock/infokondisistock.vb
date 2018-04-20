@@ -6,7 +6,7 @@ Public Class infokondisistock
 
     End Sub
     Sub isigrid()
-        Dim query As String = "SELECT * from kondisi_stock inner join stock using ()"
+        Dim query As String = "SELECT * from kondisi_stock inner join stock using (kode_barang)"
         Dim da As New MySqlDataAdapter(query, konek)
         Dim ds As New DataSet()
         If da.Fill(ds) Then
