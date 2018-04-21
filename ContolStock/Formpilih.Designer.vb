@@ -145,7 +145,7 @@ Partial Class Formpilih
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1283, 556)
+        Me.ClientSize = New System.Drawing.Size(1105, 556)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.TextBox9)
         Me.Controls.Add(Me.TextBox8)

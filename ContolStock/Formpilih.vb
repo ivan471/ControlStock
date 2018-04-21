@@ -18,8 +18,22 @@ Public Class Formpilih
             kondisistock.TextBox1.Text = TextBox2.Text
             kondisistock.TextBox2.Text = TextBox3.Text
             kondisistock.TextBox5.Text = TextBox6.Text
-            kondisistock.TextBox6.Text = TextBox6.Text
-            kondisistock.TextBox7.Text = TextBox6.Text
+            kondisistock.TextBox6.Text = TextBox7.Text
+            kondisistock.TextBox7.Text = TextBox8.Text
+            kondisistock.TextBox10.Text = TextBox4.Text
+            Me.Close()
+        ElseIf TextBox9.Text = "3" Then
+            stockkeluar.TextBox1.Text = TextBox2.Text
+            stockkeluar.TextBox2.Text = TextBox3.Text
+            stockkeluar.TextBox4.Text = TextBox6.Text
+            stockkeluar.TextBox6.Text = TextBox4.Text
+            stockkeluar.TextBox5.Text = TextBox7.Text
+            stockkeluar.TextBox7.Text = TextBox8.Text
+            Me.Close()
+        ElseIf TextBox9.Text = "4" Then
+            stockminmax.TextBox5.Text = TextBox2.Text
+            stockminmax.TextBox1.Text = TextBox3.Text
+            stockminmax.TextBox4.Text = TextBox4.Text
             Me.Close()
         End If
     End Sub
