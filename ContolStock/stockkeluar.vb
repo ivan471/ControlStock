@@ -8,6 +8,9 @@
         Dim njum As Integer = Val(TextBox4.Text) - Val(TextBox3.Text)
         If TextBox1.Text = "" Or TextBox2.Text = "" Or TextBox3.Text = "" Or TextBox4.Text = "" Or TextBox8.Text = "" Then
             MsgBox("Data belum lengkap, Pastikan Semua form terisi")
+        ElseIf TextBox3.Text > TextBox4.Text Then
+            MsgBox("Data stock kurang", MsgBoxStyle.Information, "Information")
+            TextBox3.Focus()
         ElseIf njum <= TextBox5.Text Then
             TextBox9.Text = "Stock Minimum"
             Dim tblupdate As String = "Update stock set Jumlah = " & njum & ",status = '" & TextBox9.Text & "' where kode_barang = '" & TextBox1.Text & "'"
